@@ -85,9 +85,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                // as={Link}
-                href={pdf}
-                target="_blank"
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
@@ -105,7 +105,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/sourabh-burnwal/sourabh-burnwal.github.io"
+                href="https://github.com/sourabh-burnwal/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

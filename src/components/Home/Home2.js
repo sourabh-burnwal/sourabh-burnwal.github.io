@@ -24,7 +24,7 @@ function Home2() {
             <p className="home-about-body">
               Currently working as
                 <b className="purple"> MLOps Engineer at Vimaan Robotics</b>
-              , I bridge the gap between Machine Learning and DevOps
+              , I bridge the gap between Machine Learning and DevOps.
               <br />
               <br />I have a Masters with a specialization in Big Data Analytics, and 1+ YoE in
                 <b className="purple"> Machine Learning Production. </b>
